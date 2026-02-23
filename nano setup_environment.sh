@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # 1. Create directories if they don't exist
 for dir in logs configs scripts; do
     if [ -d "$dir" ]; then
